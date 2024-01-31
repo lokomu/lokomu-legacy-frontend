@@ -1,0 +1,6 @@
+{
+  "appId": "no.delalt.del",
+  "appName": "Del",
+  "webDir": "dist",
+  "server": { "allowNavigation": ["*"] }
+}

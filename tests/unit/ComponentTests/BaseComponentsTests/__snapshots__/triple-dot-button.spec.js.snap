@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TripleDotButton component > renders correctly 1`] = `
+<button
+  class="w-8 h-8 bg-white hover:bg-gray-50 border border-blue-100 rounded-md"
+  type="button"
+>
+  <svg
+    class="h-7 m-auto rotate-90"
+    viewBox="0 96 960 960"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M233.4 620.3q-18.3 0-31.2-13-13-13-13-31.4 0-18.3 13-31.2 13.1-13 31.4-13 18.3 0 31.4 13 13.1 13 13.1 31.4 0 18.3-13.1 31.2-13.1 13-31.6 13Zm246.5 0q-18.3 0-31.2-13-13-13-13-31.4 0-18.3 13-31.2 13-13 31.4-13 18.3 0 31.2 13 13 13 13 31.4 0 18.3-13 31.2-13 13-31.4 13Zm246.5 0q-18.3 0-31.4-13-13.1-13-13.1-31.4 0-18.3 13.1-31.2 13.1-13 31.6-13 18.3 0 31.2 13 13 13 13 31.4 0 18.3-13 31.2-13.1 13-31.4 13Z"
+    />
+  </svg>
+</button>
+`;

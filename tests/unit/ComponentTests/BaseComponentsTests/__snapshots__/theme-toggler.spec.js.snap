@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ThemeToggler component > renders correctly 1`] = `
+<div>
+  <moon-icon-stub
+    class="fill-floyd-800 h-7 cursor-pointer dark:hidden"
+  />
+  <sun-icon-stub
+    class="fill-yellow-300 h-7 cursor-pointer hidden dark:block"
+  />
+</div>
+`;

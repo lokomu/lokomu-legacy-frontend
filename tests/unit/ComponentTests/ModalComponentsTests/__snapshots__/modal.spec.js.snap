@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Modal component > renders correctly 1`] = `
+<anonymous-stub
+  data-v-6b8783f2=""
+  to="#modals"
+/>
+`;

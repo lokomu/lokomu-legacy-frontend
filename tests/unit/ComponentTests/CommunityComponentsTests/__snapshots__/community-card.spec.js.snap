@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CommunityCard component > renders correctly 1`] = `
+<div
+  class="p-1 m-2 w-28 rounded-t-[8rem] rounded-b-[2rem] shadow hover:shadow-lg dark:shadow-gray-800 overflow-hidden cursor-pointer"
+  community="[object Object]"
+  tabindex="0"
+>
+  <div
+    class="bg-floyd-600 dark:bg-indigo-800 flex w-[6.5rem] h-[6.5rem] rounded-full mx-auto overflow-hidden"
+  >
+    <anonymous-stub
+      class="w-full m-auto h-14 fill-white"
+    />
+  </div>
+  <div
+    class="text-center text-sm md:text-md font-semibold text-black dark:text-white w-[6.5rem] mx-auto overflow-hidden overflow-ellipsis whitespace-nowrap mt-1"
+  />
+</div>
+`;

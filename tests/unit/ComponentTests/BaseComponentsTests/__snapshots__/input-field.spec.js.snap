@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InputField > renders correctly 1`] = `
+<input
+  class="w-full text-center text-sm p-2.5 outline-none rounded-lg bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm dark:bg-gray-700 focus:border-red-500 dark:text-red-500 dark:placeholder-red-500 dark:border-red-500"
+  type="text"
+/>
+`;

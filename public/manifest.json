@@ -1,0 +1,30 @@
+{
+  "name": "Del",
+  "short_name": "Del",
+  "version": "0.2",
+  "start_url": "index.html",
+  "manifest_version": 3,
+  "lang": "no",
+  "keywords": ["Del", "delalt.no", "Deling", "Fellesskap", "Bærekraft"],
+  "display": "fullscreen",
+  "background_color": "#FFFFFF",
+  "theme_color": "#03AA4B",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

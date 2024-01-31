@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ColorButton > renders correctly 1`] = `
+<button
+  class="flex bg-gradient-to-br hover:bg-gradient-to-tl items-center text-white font-medium rounded-lg text-sm px-5 py-2.5 focus:ring-4 focus:outline-none text-center from-floyd-400 via-floyd-600 to-floyd-700 focus:ring-floyd-300 dark:focus:ring-floyd-800"
+  type="button"
+>
+  Test Button
+</button>
+`;

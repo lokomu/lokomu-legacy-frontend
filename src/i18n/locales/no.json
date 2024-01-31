@@ -1,0 +1,297 @@
+{
+  "alt": {
+    "community_image": "Fellesskapsbilde",
+    "image": "Bilde",
+    "user_image": "Ingen profilbilde"
+  },
+  "author": "DEL",
+  "button": {
+    "action_button": "Nei, avbryt",
+    "borrow": "Lån",
+    "borrow_date": {
+      "cancel": "Avbryt",
+      "choose": "Velg"
+    },
+    "borrows": {
+      "agreements": "Avtaler",
+      "requests": "Forespørsler"
+    },
+    "chat": "Send en melding",
+    "community": {
+      "chat": "Chat",
+      "create": "Lag",
+      "delete": "Slett",
+      "edit": "Rediger",
+      "join": "Bli med",
+      "kick": "Spark",
+      "new": "Nytt fellesskap",
+      "send_req": "Send forespørsel"
+    },
+    "copy": "Kopier",
+    "invite": {
+      "accept": "Godta Invitasjonen",
+      "create": "Lag en invitasjonslenke",
+      "login": "Logg På For Å Bli Med"
+    },
+    "item": {
+      "new": "Ny deling",
+      "share": "Del"
+    },
+    "login": "Logg inn",
+    "new_password": "Sett ny passord",
+    "password": "Glemt passordet?",
+    "request": {
+      "accept": "Bekreft",
+      "decline": "Avslå"
+    },
+    "save": "Lagre",
+    "signup": "Registrer",
+    "signup_message": "Ny bruker? Registrer"
+  },
+  "config": {
+    "systemRole": ""
+  },
+  "createAt": "2023/10/13",
+  "descriptions": {
+    "home": "Hjem",
+    "messages": "Meldinger",
+    "new": "Ny deling/fellesskap",
+    "profile": "Min profil",
+    "search": "Søk"
+  },
+  "errors": {
+    "borrow_period": "Velg periode for borrow",
+    "community": {
+      "description_empty": "Beskrivelsen kan ikke være tom",
+      "name_empty": "Navn kan ikke være tom",
+      "name_max": "Navnet kan være på max 50 tegn",
+      "place_empty": "Stedsnavn kan ikke være tom",
+      "place_max": "Stednavn kan være på max 50 tegn"
+    },
+    "description_max": "Beskrivelsen kan inneholde max 200 tegn",
+    "empty_field": "Feltet må være utfylt",
+    "error": "Noe gikk galt",
+    "item": {
+      "choose_community": "Velg fellesskap",
+      "no_community": "Bli med eller start et fellesskap først for å lage delinger ↓",
+      "title_empty": "Tittelen kan ikke være tom",
+      "title_max": "Tittelen kan inneholde max 50 tegn"
+    },
+    "login": {
+      "email_empty": "Feltet må være utfylt",
+      "email_invalid": "Eposten er ugyldig",
+      "failure": "Logging på feilet",
+      "password": "Feltet må være utfylt",
+      "wrong": "Feil epost/passord"
+    },
+    "message_empty": "Meldingen kan ikke være tom",
+    "message_max": "Meldingen kan inneholde max 200 tegn",
+    "password_alike": "Passordene må være like",
+    "password_length": "Passordet må være minst 8 karakterer lang",
+    "wrong_old_password": "Det gamle passordet stemmer ikke"
+  },
+  "homepage": "https://delalt.no",
+  "identifier": "",
+  "locale": {
+    "en": "Engelsk",
+    "no": "Norsk"
+  },
+  "menu": {
+    "community": {
+      "admin": "Administrer",
+      "invite": "Inviter andre",
+      "items": "Tilgjengelige delinger",
+      "leave": "Forlat fellesskapet",
+      "members": "Medlemsliste",
+      "new": {
+        "hidden": "Skjult",
+        "open": "Åpen for naboer",
+        "private": "Lukket"
+      },
+      "requests": "Medlemsforespørsler",
+      "settings": "Innstillinger"
+    },
+    "item": {
+      "delete": "Slett delingen",
+      "edit": "Rediger delingen"
+    },
+    "user": {
+      "change": "Rediger profil",
+      "communities": "Mine fellesskap",
+      "delete": "Slett bruker",
+      "history": "Delingshistorikk",
+      "items": "Mine delinger",
+      "logout": "Logg ut",
+      "password": "Endre passord",
+      "profile": "Min profil"
+    }
+  },
+  "message": {
+    "404": {
+      "home": "Tilbake hjem",
+      "message": "Denne siden finnes ikke",
+      "support": "Kontakt oss",
+      "title": "La meg dele noe med deg"
+    },
+    "borrow": {
+      "accepted": "Godtatt",
+      "rejected": "Avslått"
+    },
+    "change_password": {
+      "new": "Nytt passord",
+      "old": "Gammelt passord",
+      "repeat": "Gjenta nytt passord",
+      "title": "Endre passord"
+    },
+    "chat": {
+      "conversation": "Ingen samtaler",
+      "day": "dager",
+      "hour": "timer",
+      "minute": "minutter",
+      "relative_time": "{value} {unit} siden",
+      "unknown": "Ukjent",
+      "user": "Velg en bruker",
+      "waiting": "Venter..."
+    },
+    "community": {
+      "action": "Finn ditt fellesskap!",
+      "empty": "Ingen delinger enda... vil du lage den første?",
+      "invite": "Du har blitt invitert til et fellesskap!",
+      "landing": "Bli med i fellesskap som samsvarer med dine interesser og verdier",
+      "none_part_1": "Finnes ingen fellesskap i nærheten enda...",
+      "none_part_2": "Hva med å starte et?"
+    },
+    "delete_community_action": {
+      "action": "Slett",
+      "message": "Vil du slette dette fellesskapet?",
+      "title": "Er du sikker?"
+    },
+    "delete_image_action": {
+      "action": "Slett",
+      "message": "Du vil ikke kunne laste opp dette bildet på nytt",
+      "title": "Er du sikker?"
+    },
+    "delete_item": "Slett deling",
+    "delete_item_action": {
+      "action": "Slett",
+      "message": "Vil du slette denne delingen?",
+      "title": "Er du sikker?"
+    },
+    "edit_item": "Rediger deling",
+    "image_max": "Max 3 bilder mulig å laste opp",
+    "invite": {
+      "expiration": "Lenken utløper om 24 timer",
+      "login": "Vennligst logg inn og åpne denne invitasjonen på nytt for å bli med."
+    },
+    "item": {
+      "landing": "Deling bidrar til å redusere avfall og vårt miljøavtrykk",
+      "none": "Fant ingen delinger",
+      "wait": "Vent på andre å dele"
+    },
+    "leave_community_action": {
+      "action": "Forlat",
+      "message": "Vil du forlate dette fellesskapet?",
+      "title": "Er du sikker?"
+    },
+    "message_borrow": "Melding til utlåner",
+    "request": {
+      "about_community": "Om fellesskapet:",
+      "join": "Bli en del av:",
+      "none": "Ingen forespørsler"
+    },
+    "search": {
+      "none": "Ingen fellesskap funnet for '"
+    }
+  },
+  "meta": {
+    "avatar": "",
+    "description": "",
+    "tags": [],
+    "title": ""
+  },
+  "misc": {
+    "copyright": "© Del 2023. Alle rettigheter forbeholdt",
+    "help": {
+      "about": "Om Del",
+      "help": "Hjelp",
+      "privacy": "Personvern",
+      "terms": "Brukervilkår"
+    },
+    "slogan": "Et grønt fellesskap"
+  },
+  "notification": {
+    "community": {
+      "created": "Fellesskapet laget!",
+      "kicked": "Brukeren sparket",
+      "login": "Logg inn for å bli med",
+      "member": "Må være et medlem for å låne",
+      "updated": "Fellesskapet oppdatert"
+    },
+    "item": {
+      "deleted": "Delingen slettet"
+    },
+    "login": "Logg inn for å låne",
+    "password": "Passord endret!",
+    "request": {
+      "accepted": "Forespørselen godtatt!",
+      "declined": "Forespørselen avslått",
+      "sent": "Forespørselen sendt!"
+    },
+    "saved": "Endringene lagret!",
+    "shared": "Delingen delt!"
+  },
+  "placeholder": {
+    "address": "Adresse, sånn cirka",
+    "area": "Område",
+    "borrow_period": "Periode for utlånet*",
+    "category": "Kategori",
+    "chat": "Melding",
+    "choose_period": "Velg periode",
+    "code": "Postnummer",
+    "community_request_desc": "Fortell oss hvorfor du vil bli med",
+    "description": "Beskrivelse",
+    "email": "Epost",
+    "item": {
+      "search": "Søk"
+    },
+    "name": {
+      "community": "Navn",
+      "first": "Fornavn",
+      "last": "Etternavn"
+    },
+    "password": {
+      "confirm": "Bekreft passordet",
+      "default": "Passord"
+    },
+    "search": {
+      "communities": "Søk etter fellesskap...",
+      "default": "Søk"
+    },
+    "title": "Tittel"
+  },
+  "schemaVersion": "0.0.1",
+  "title": {
+    "borrows": {
+      "agreements": "Låneavtaler",
+      "requests": "Lån forespørsler",
+      "borrowed": "Lånte gjenstander"
+    },
+    "chat": "Samtaler",
+    "community": {
+      "default": "Fellesskap",
+      "landing": "Et Sted å Tilhøre",
+      "my": "Mine fellesskap",
+      "near": "Fellesskap i nærheten",
+      "random": "Tilfeldige fellesskap"
+    },
+    "invite": "Invitasjon",
+    "item": {
+      "default": "Delinger",
+      "landing": "Del Ressurser",
+      "my": "Mine delinger"
+    },
+    "request": "Forespørsel",
+    "search": "Søk",
+    "welcome": "Velkommen til Del"
+  }
+}

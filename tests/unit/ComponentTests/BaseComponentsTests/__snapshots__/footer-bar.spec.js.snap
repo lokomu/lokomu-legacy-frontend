@@ -1,0 +1,79 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FooterBar component > renders correctly 1`] = `
+<div
+  class="absolute bg-white dark:bg-black left-0 w-full py-12 px-4 border-t border-gray-200 dark:border-gray-900"
+>
+  <div
+    class="mx-auto container flex flex-col items-center justify-center"
+  >
+    <a
+      class="mx-auto flex"
+    >
+      <logo-icon-stub
+        class="h-10 fill-green-500 dark:fill-white"
+      />
+    </a>
+    <h1
+      class="text-center text-pink-500 text-2xl font-bold pt-3"
+    >
+      misc.slogan
+    </h1>
+    <ul
+      class="md:flex items-center my-6 text-base text-color"
+    >
+      
+      <li
+        class="md:mr-6 cursor-pointer pt-4 lg:py-0"
+      >
+        <a
+          class="dark:text-white text-floyd-800 focus:underline hover:text-gray-500"
+        >
+          misc.help.about
+        </a>
+      </li>
+      <li
+        class="md:mr-6 cursor-pointer pt-4 lg:py-0"
+      >
+        <a
+          class="dark:text-white text-floyd-800 focus:underline hover:text-gray-500"
+        >
+          misc.help.terms
+        </a>
+      </li>
+      <li
+        class="md:mr-6 cursor-pointer pt-4 lg:py-0"
+      >
+        <a
+          class="dark:text-white text-floyd-800 focus:underline hover:text-gray-500"
+        >
+          misc.help.help
+        </a>
+      </li>
+      <li
+        class="md:mr-6 cursor-pointer pt-4 lg:py-0"
+      >
+        <a
+          class="dark:text-white text-floyd-800 focus:underline hover:text-gray-500"
+        >
+          misc.help.privacy
+        </a>
+      </li>
+      
+    </ul>
+    <p
+      class="text-floyd-900 text-sm text-color mb-16 f-f-l dark:text-white"
+    >
+      misc.copyright
+    </p>
+    <div
+      class="flex mx-auto"
+    >
+      <language-switcher-stub />
+      <theme-toggler-stub
+        class="ml-4"
+      />
+    </div>
+  </div>
+</div>
+`;

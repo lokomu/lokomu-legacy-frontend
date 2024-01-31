@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AddSwitch component > renders correctly 1`] = `
+<div
+  class="flex relative w-full h-full"
+>
+  <div
+    class="absolute transition-transform duration-1000 ease-in-out rounded-3xl h-full w-1/2 translate-x-0 undefined"
+  />
+  <input
+    class="peer hidden peer/first"
+    id="first"
+    name="option"
+    type="radio"
+  />
+  <label
+    class="cursor-pointer p-2 text-center z-30 w-1/2 left-0 rounded-full font-bold peer-checked:font-normal"
+    for="first"
+  />
+  <input
+    class="peer hidden peer/second"
+    id="second"
+    name="option"
+    type="radio"
+  />
+  <label
+    class="cursor-pointer p-2 text-center z-30 w-1/2 right-0 rounded-full peer-checked/first:font-bold"
+    for="second"
+  />
+</div>
+`;

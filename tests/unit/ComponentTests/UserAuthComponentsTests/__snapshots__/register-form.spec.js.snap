@@ -1,0 +1,130 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RegisterFormComponent > renders correctly 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <!-- Register form for creating a new user account -->
+  <div
+    class="w-full max-w-md bg-white dark:bg-gray-900 rounded-3xl p-4"
+  >
+    <form
+      class="w-full xs:w-3/4 mx-auto flex flex-col gap-4"
+    >
+      <i-header-stub />
+      <div
+        class="flex justify-between"
+      >
+        <div>
+          <!-- First name -->
+          <input-field-stub
+            id="firstName"
+            modelvalue=""
+            name="firstName"
+            placeholder="placeholder.name.first"
+            type="text"
+          />
+          <!-- error message for first name-->
+          
+          
+        </div>
+        <div
+          class="ml-2"
+        >
+          <!-- Last name -->
+          <input-field-stub
+            id="lastName"
+            modelvalue=""
+            name="lastName"
+            placeholder="placeholder.name.last"
+            type="text"
+          />
+          <!-- error message for last name -->
+          
+          
+        </div>
+      </div>
+      <div>
+        <!-- Email -->
+        <input-field-stub
+          id="email"
+          modelvalue=""
+          name="email"
+          placeholder="placeholder.email"
+          type="email"
+        />
+        <!-- error message for email -->
+        
+        
+      </div>
+      <div>
+        <!-- Password -->
+        <input-field-stub
+          id="password"
+          modelvalue=""
+          name="password"
+          placeholder="placeholder.password.default"
+          type="password"
+        />
+        <!-- error message -->
+        
+        
+      </div>
+      <div>
+        <input-field-stub
+          id="confirmPassword"
+          modelvalue=""
+          name="confirmPassword"
+          placeholder="placeholder.password.confirm"
+          type="password"
+        />
+        <!-- error message -->
+        
+        
+      </div>
+      <div>
+        <!-- Address -->
+        <geo-search-bar-stub />
+        <!-- error message for address -->
+        
+        
+      </div>
+      <div
+        class="mx-auto text-center"
+      >
+        <input
+          class="inline-block mr-2"
+          id="termsCheckbox"
+          name="termsCheckbox"
+          type="checkbox"
+        />
+        <label
+          class="text-[11px] text-black dark:text-white text-center"
+          for="termsCheckbox"
+        >
+           I agree to the Del 
+          <a
+            class="text-blue-500"
+          >
+            Terms of Service
+          </a>
+           and 
+          <a
+            class="text-blue-500"
+          >
+            Privacy Policy
+          </a>
+          . 
+        </label>
+      </div>
+      <color-button-stub
+        buttoncolor="blue"
+        class="mx-auto"
+        text="button.signup"
+      />
+    </form>
+  </div>
+  
+</div>
+`;

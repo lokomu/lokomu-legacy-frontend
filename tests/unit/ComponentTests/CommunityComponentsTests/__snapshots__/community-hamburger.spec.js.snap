@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CommunityHamburger elements rendering > renders correctly 1`] = `
+<div
+  class="absolute right-9 w-36 top-0 z-10 border border-blue-400 rounded-xl bg-white dark:bg-gray-900"
+>
+  <ul>
+    <li
+      id="invite"
+    >
+      <div
+        class="block cursor-pointer py-2 px-4 text-sm text-black dark:text-white"
+      >
+        menu.community.invite
+      </div>
+    </li>
+    <li
+      id="getMembers"
+    >
+      <a
+        class="block py-2 px-4 text-sm text-black dark:text-white"
+      >
+        menu.community.members
+      </a>
+    </li>
+    <li
+      id="leaveCommunity"
+    >
+      <div
+        class="cursor-pointer block py-2 px-4 text-sm text-red-500 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+      >
+        menu.community.leave
+      </div>
+    </li>
+  </ul>
+</div>
+`;

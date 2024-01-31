@@ -1,0 +1,314 @@
+{
+  "alt": {
+    "user_image": "No profile image",
+    "image": "Image",
+    "community_image": "Community image"
+  },
+  "author": "DEL",
+  "button": {
+    "action_button": "No, cancel",
+    "borrow": "Borrow",
+    "borrow_date": {
+      "cancel": "Cancel",
+      "choose": "Choose"
+    },
+    "borrows": {
+      "agreements": "Agreements",
+      "borrower": "Borrower",
+      "owner": "Owner",
+      "requester": "Requester",
+      "requests": "Requests"
+    },
+    "chat": "Send a message",
+    "community": {
+      "chat": "Chat",
+      "create": "Create",
+      "delete": "Delete",
+      "edit": "Edit",
+      "join": "Join",
+      "kick": "Kick",
+      "new": "New community",
+      "send_req": "Send request"
+    },
+    "copy": "Copy",
+    "invite": {
+      "accept": "Accept Invitation",
+      "create": "Create an invitation link",
+      "login": "Log In To Join"
+    },
+    "item": {
+      "new": "New item",
+      "share": "Share"
+    },
+    "login": "Log In",
+    "new_password": "Set new password",
+    "password": "Forgotten password?",
+    "request": {
+      "accept": "Accept",
+      "decline": "Decline"
+    },
+    "save": "Save",
+    "signup": "Sign up",
+    "signup_message": "New user? Sign up"
+  },
+  "config": {
+    "systemRole": ""
+  },
+  "createAt": "2023/10/13",
+  "descriptions": {
+    "home": "Home",
+    "messages": "Messages",
+    "new": "New item/community",
+    "profile": "My profile",
+    "search": "Search"
+  },
+  "errors": {
+    "borrow_period": "Choose a borrow period",
+    "community": {
+      "description_empty": "Description cannot be empty",
+      "name_empty": "Name cannot be empty",
+      "name_max": "Name can contain maximum 50 characters",
+      "place_empty": "Location cannot be empty",
+      "place_max": "Location can contain maximum 50 characters"
+    },
+    "description_max": "Description can contain maximum 200 characters",
+    "empty_field": "Field cannot be empty",
+    "error": "Something went wrong",
+    "item": {
+      "choose_community": "Choose community",
+      "no_community": "Join or start a community first to create items ↓",
+      "title_empty": "Title cant be empty",
+      "title_max": "Title can contain maximum 50 caracters"
+    },
+    "login": {
+      "email_empty": "Field cannot be empty",
+      "email_invalid": "Email is inavlid",
+      "failure": "Login failed",
+      "password": "Field cannot be empty",
+      "wrong": "Wrong email/password"
+    },
+    "message_empty": "Message cannot be empty",
+    "message_max": "Message can contain maximum 200 characters",
+    "password_alike": "Passwords are not the same",
+    "password_length": "Password needs to be minimum 8 characters long",
+    "wrong_old_password": "The old password is not right"
+  },
+  "homepage": "https://delalt.no",
+  "identifier": "",
+  "locale": {
+    "en": "English",
+    "no": "Norwegian"
+  },
+  "menu": {
+    "borrows": {
+      "borrowed": "My Borrowed Items",
+      "loans": "My Loaned Out Items",
+      "completed": "Completed Agreements",
+      "requests": {
+        "canceled": "Canceled Requests",
+        "declined": "Declined Requests"
+      }
+    },
+    "community": {
+      "new": {
+        "private": "Closed",
+        "open": "Open for neighbours",
+        "hidden": "Hidden"
+      },
+      "members": "Member-list",
+      "requests": "Member requests",
+      "settings": "Settings",
+      "admin": "Administrate",
+      "leave": "Leave community",
+      "items": "Available items",
+      "invite": "Invite others"
+    },
+    "item": {
+      "edit": "Edit item",
+      "delete": "Delete item"
+    },
+    "user": {
+      "change": "Edit profile",
+      "communities": "My communities",
+      "delete": "Delete user",
+      "history": "Sharing history",
+      "items": "My items",
+      "logout": "Log out",
+      "password": "Change password",
+      "profile": "My profile"
+    }
+  },
+  "message": {
+    "404": {
+      "home": "Go back home",
+      "message": "This page doesn't exist",
+      "support": "Contact us",
+      "title": "Let me share something with you"
+    },
+    "borrow": {
+      "accepted": "Accepted",
+      "rejected": "Rejected"
+    },
+    "change_password": {
+      "new": "New password",
+      "old": "Old password",
+      "repeat": "Repeat new password",
+      "title": "Change password"
+    },
+    "chat": {
+      "conversation": "No conversations",
+      "day": "days",
+      "hour": "hours",
+      "minute": "minutes",
+      "relative_time": "{value} {unit} ago",
+      "unknown": "Unknown",
+      "user": "Choose a user",
+      "waiting": "Waiting..."
+    },
+    "community": {
+      "action": "Find your community!",
+      "empty": "No items yet... want to create the first one?",
+      "invite": "You have been invited to join a community!",
+      "landing": "Join communities that match your interests and location",
+      "none_part_1": "There are no communities nearby yet...",
+      "none_part_2": "How about starting one?"
+    },
+    "delete_community_action": {
+      "action": "Delete",
+      "message": "Do you want to delete this community?",
+      "title": "Are you sure?"
+    },
+    "delete_image_action": {
+      "action": "Delete",
+      "message": "You won't be able to reupload this image",
+      "title": "Are you sure?"
+    },
+    "delete_item": "Delete item",
+    "delete_item_action": {
+      "action": "Delete",
+      "message": "Do you want to delete this item?",
+      "title": "Are you sure?"
+    },
+    "edit_item": "Edit item",
+    "image_max": "Only possible to upload 3 images",
+    "invite": {
+      "expiration": "The link expires in 24 hours",
+      "login": "Please log in and open this invitation again to join the community."
+    },
+    "item": {
+      "landing": "Sharing items helps reduce waste and our environmental footprint",
+      "none": "Found no items",
+      "wait": "Wait for others to share"
+    },
+    "leave_community_action": {
+      "action": "Leave",
+      "message": "Do you want to leave this community?",
+      "title": "Are you sure?"
+    },
+    "message_borrow": "Message to the borrower",
+    "request": {
+      "about_community": "About community:",
+      "join": "Join:",
+      "none": "No requests"
+    },
+    "search": {
+      "none": "No communities found for '"
+    }
+  },
+  "meta": {
+    "avatar": "",
+    "description": "",
+    "tags": [],
+    "title": ""
+  },
+  "misc": {
+    "copyright": "© Del 2023. All rights reserved",
+    "help": {
+      "about": "About",
+      "help": "Help",
+      "privacy": "Privacy",
+      "terms": "Terms of use"
+    },
+    "slogan": "A green community"
+  },
+  "notification": {
+    "community": {
+      "created": "Community created!",
+      "kicked": "User kicked",
+      "login": "Log in to join",
+      "member": "Must be a member to borrow",
+      "updated": "Community updated"
+    },
+    "error": "Something went wrong..",
+    "item": {
+      "deleted": "Item deleted"
+    },
+    "login": "Log in to borrow",
+    "password": "Password changed!",
+    "request": {
+      "accepted": "Request accepted!",
+      "declined": "Request declined",
+      "sent": "Request sent!"
+    },
+    "saved": "Changes saved!",
+    "shared": "Item shared!"
+  },
+  "placeholder": {
+    "address": "Address, roughly",
+    "area": "Area",
+    "borrow_period": "Borrow period*",
+    "category": "Category",
+    "chat": "Message",
+    "choose_period": "Choose period",
+    "code": "Postal code",
+    "community_request_desc": "Tell us why you want to join",
+    "description": "Description",
+    "email": "Email",
+    "item": {
+      "search": "What do you need?"
+    },
+    "name": {
+      "community": "Name",
+      "first": "First name",
+      "last": "Last name"
+    },
+    "password": {
+      "confirm": "Confirm password",
+      "default": "Password"
+    },
+    "search": {
+      "communities": "Search for communities...",
+      "default": "Search"
+    },
+    "title": "Title"
+  },
+  "schemaVersion": "0.0.1",
+  "title": {
+    "borrows": {
+      "agreements": "Borrow Agreements",
+      "borrowed": "Borrowed Items",
+      "canceled": "Canceled Requests",
+      "completed": "Completed Agreements",
+      "declined": "Declined Requests",
+      "loans": "Loaned Out Items",
+      "requests": "Borrow Requests"
+    },
+    "chat": "Conversations",
+    "community": {
+      "default": "Communities",
+      "landing": "A Place to Belong",
+      "my": "My communities",
+      "near": "Communities nearby",
+      "random": "Random communities"
+    },
+    "invite": "Invitation",
+    "item": {
+      "default": "Items",
+      "landing": "Share Resources",
+      "my": "My items"
+    },
+    "request": "Request",
+    "search": "Search",
+    "welcome": "Welcome to Del"
+  }
+}

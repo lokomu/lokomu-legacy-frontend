@@ -1,0 +1,115 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LandingPage > renders correctly 1`] = `
+<div
+  class="min-h-screen"
+>
+  <div
+    class="fixed w-screen min-h-screen animated-gradient left-0 top-0"
+  />
+  <div
+    class="bg-transparent mb-[25vh] relative top-0 left-0 min-h-screen w-full flex flex-col items-center justify-center"
+  >
+    <!-- Welcome Section -->
+    <div
+      class="flex flex-col justify-center h-screen text-white text-center"
+    >
+      <div
+        class="text-white text-4xl font-semibold mb-4"
+      >
+        title.welcome
+      </div>
+      <div
+        class="text-white text-lg mb-8"
+      >
+        message.community.action
+      </div>
+      <div
+        class="w-full max-w-md"
+      >
+        <div
+          class="flex mx-4 justify-center"
+        >
+          <button
+            class="flex bg-gradient-to-br hover:bg-gradient-to-tl items-center text-white font-medium rounded-lg text-sm px-5 py-2.5 focus:ring-4 focus:outline-none text-center from-green-400 via-green-600 to-green-700 focus:ring-green-300 dark:focus:ring-green-800 mr-6"
+            type="button"
+          >
+            Login
+          </button>
+          <button
+            class="flex bg-gradient-to-br hover:bg-gradient-to-tl items-center text-white font-medium rounded-lg text-sm px-5 py-2.5 focus:ring-4 focus:outline-none text-center from-floyd-400 via-floyd-600 to-floyd-700 focus:ring-floyd-300 dark:focus:ring-floyd-800"
+            type="button"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative"
+    >
+      <!-- Community Section -->
+      <section
+        class="scroll-section"
+        data-step="1"
+        id="community"
+      >
+        <div
+          class="content text-white text-center"
+        >
+          <svg
+            class="h-20 fill-white mx-auto"
+            viewBox="0 96 960 960"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m165.9 654.8 75.9-75-75.9-76-75 76 75 75Zm550-11.1 79-127.2 79.8 127.2H715.8ZM49.6 807.5q-12.3 0-21-8.6-8.7-8.7-8.7-21.1v-14.2q0-38.2 39.8-62 39.8-24 105.4-24 11.5 0 22.5.8T209 681q-8.4 16-12.5 33.7-4.2 17.7-4.2 37.4v55.5H49.7Zm241.7 0q-13.5 0-22.5-9-8.9-9-8.9-22.2v-22.8q0-57.3 60.7-92.4Q381.5 626 479.8 626q99.4 0 159.8 35.1t60.4 92.4v22.8q0 13.3-9 22.2-9 9-22.3 9H291.4Zm476.3 0V752q0-19.7-4.2-37.4t-12.5-34q10.2-1.7 21.2-2.3 11-.6 22.7-.6 65.2 0 105.1 23.8t40 62.1v14.2q0 12.4-8.7 21-8.7 8.7-21 8.7H767.7ZM480 676.3q-74.4 0-121.3 21.3-46.8 21.4-47.7 54v5.7h338.2v-6.4q-1.3-31.8-48-53.2-46.8-21.4-121.2-21.4Zm0-80.3q-43.3 0-73.6-30.3-30.2-30.3-30.2-73.5 0-43.3 30.2-73.6 30.3-30.3 73.6-30.3t73.6 30.3q30.2 30.3 30.2 73.6 0 43.2-30.2 73.5Q523.3 596 480 596Zm0-157.4q-23 0-38.3 15.2-15.3 15.3-15.3 38.3t15.3 38.3q15.2 15.3 38.2 15.3 23 0 38.4-15.2 15.3-15.3 15.3-38.3T518.3 454q-15.2-15.3-38.2-15.3Zm0 318.7Zm0-265.1Z"
+            />
+          </svg>
+          <div
+            class="text-4xl font-semibold mb-4"
+          >
+            title.community.landing
+          </div>
+          <div
+            class="text-lg"
+          >
+            message.community.landing
+          </div>
+        </div>
+      </section>
+      <!-- Environmental Impact Section -->
+      <section
+        class="scroll-section"
+        data-step="2"
+        id="environment"
+      >
+        <div
+          class="content text-white text-center"
+        >
+          <svg
+            class="h-20 fill-white mx-auto"
+            viewBox="0 96 960 960"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M61 887V630q0-22 15-37t37-15h33q21 0 37 15t15 37v257q0 21-15 36-16 15-37 15h-33q-22 0-37-15t-15-36Zm477 78-289-84V578h82l12 1 10 3 244 90q23 9 37 28 14 20 14 39 0 10-6 16-6 5-16 5h-61q-24 0-44-2-19-3-39-10l-58-20q-6-2-12 1t-8 8q-2 7 1 12 3 6 9 9l62 21q17 5 39 9t54 3h202q42 0 62 22t20 63l-279 89q-8 2-18 2t-18-2Zm99-387-12-2q-5-1-10-6-85-74-143-142t-58-125q0-48 33-81t81-33q29 0 57 16 29 15 52 45 23-30 51-45 29-16 58-16 48 0 81 33t33 81q0 57-58 125-59 68-144 142-4 5-10 6-5 2-11 2Z"
+            />
+          </svg>
+          <div
+            class="text-4xl font-semibold mb-4"
+          >
+            title.item.landing
+          </div>
+          <div
+            class="text-lg"
+          >
+            message.item.landing
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--v-if-->
+  </div>
+</div>
+`;

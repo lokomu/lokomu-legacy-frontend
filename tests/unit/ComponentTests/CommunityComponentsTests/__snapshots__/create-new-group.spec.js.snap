@@ -1,0 +1,144 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CreateNewCommunity elements rendering > renders correctly 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <!-- A form for creating a new community -->
+  <div
+    class="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden m-auto w-full p-4"
+  >
+    <div
+      class="flex flex-col gap-4 w-full xs:w-3/4 mx-auto"
+    >
+      <!--v-if-->
+      <div
+        class="flex justify-center"
+      >
+        <input
+          accept="image/x-png,image/gif,image/jpeg"
+          class="hidden"
+          multiple=""
+          type="file"
+        />
+        <anonymous-stub
+          class="h-14 w-14 mx-auto shadow-xl"
+        />
+      </div>
+      <!-- Title -->
+      <div
+        class=""
+      >
+        <input-field-stub
+          id="title"
+          modelvalue=""
+          name="title"
+          placeholder="placeholder.name.community"
+          type="text"
+        />
+        <!-- error message for title-->
+        
+        
+      </div>
+      <!-- Place -->
+      <div
+        class=""
+      >
+        <input-field-stub
+          id="location"
+          modelvalue=""
+          name="location"
+          placeholder="placeholder.area"
+          type="text"
+        />
+        <!-- error message for place-->
+        
+        
+      </div>
+      <!-- Description -->
+      <div
+        class=""
+      >
+        <text-area-field-stub
+          id="description"
+          modelvalue=""
+          name="description"
+          placeholder="placeholder.description"
+          rows="2"
+        />
+        <!-- error message for description -->
+        
+        
+      </div>
+      <!-- Radio boxes -->
+      <div
+        class="space-y-2"
+      >
+        <div
+          class="flex justify-center mr-5"
+        >
+          <label
+            class="flex items-center cursor-pointer"
+          >
+            <input
+              checked=""
+              class="rounded-full h-4 w-4 border-2 border-gray-300 bg-white checked:bg-green-700 checked:border-green-700 focus:ring-0 focus:outline-none cursor-pointer"
+              name="flexRadioDefault"
+              type="radio"
+            />
+            <span
+              class="ml-2 font-medium text-sm text-black dark:text-white"
+            >
+              menu.community.new.private
+            </span>
+          </label>
+        </div>
+        <div
+          class="flex justify-center mr-5"
+        >
+          <label
+            class="flex items-center cursor-pointer"
+          >
+            <input
+              class="rounded-full h-4 w-4 border-2 border-gray-300 bg-white checked:bg-green-700 checked:border-green-700 focus:ring-0 focus:outline-none cursor-pointer"
+              name="flexRadioDefault"
+              type="radio"
+            />
+            <span
+              class="ml-2 font-medium text-sm text-black dark:text-white"
+            >
+              menu.community.new.open
+            </span>
+          </label>
+        </div>
+        <div
+          class="flex justify-center mr-5"
+        >
+          <label
+            class="flex items-center cursor-pointer"
+          >
+            <input
+              class="rounded-full h-4 w-4 border-2 border-gray-300 bg-white checked:bg-green-700 checked:border-green-700 focus:ring-0 focus:outline-none cursor-pointer"
+              name="flexRadioDefault"
+              type="radio"
+            />
+            <span
+              class="ml-2 font-medium text-sm text-black dark:text-white"
+            >
+              menu.community.new.hidden
+            </span>
+          </label>
+        </div>
+      </div>
+      <!-- Save item button -->
+      <color-button-stub
+        buttoncolor="blue"
+        class="mx-auto"
+        text="button.community.create"
+      />
+    </div>
+  </div>
+  
+</div>
+`;

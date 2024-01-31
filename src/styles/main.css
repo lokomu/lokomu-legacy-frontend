@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@layer base {
+  html {
+    font-family: OpenSans, system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+.scroll-section {
+  min-height: 75vh;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.scroll-section .content {
+  position: sticky;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scroll-section.is-active {
+  opacity: 1;
+}
+
+@keyframes gradient-bg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(270deg, #542bc5, #85199a, #c00367);
+  background-size: 600% 600%;
+  animation: gradient-bg 12s ease infinite;
+}
+.dark .animated-gradient {
+  background: linear-gradient(270deg, #030a6e, #210751, #46032f);
+  background-size: 600% 600%;
+  animation: gradient-bg 12s ease infinite;
+}
+
+@layer components {
+  ::-webkit-scrollbar {
+    @apply w-2.5;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-white;
+    @apply dark:bg-green-1000;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-green-600 rounded-lg;
+    @apply dark:bg-green-600;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-green-700;
+    @apply dark:bg-green-700;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme("backgroundColor.green.600")
+      theme("backgroundColor.white");
+  }
+
+  *::-webkit-scrollbar {
+    @apply w-1;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply bg-white;
+    @apply dark:bg-green-1000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply bg-green-600 rounded-lg;
+    @apply dark:bg-green-600;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    @apply bg-green-700;
+    @apply dark:bg-green-700;
+  }
+
+  @media screen and (min-width: 768px) {
+    ::-webkit-scrollbar {
+      @apply w-2.5;
+    }
+  }
+}
+
+.scrollbar-sm::-webkit-scrollbar {
+  @apply h-1;
+}
+
+.scrollbar-sm::-webkit-scrollbar-thumb {
+  @apply rounded-md bg-indigo-300 dark:bg-indigo-700;
+}
+
+.scrollbar-sm::-webkit-scrollbar-thumb:hover {
+  @apply bg-indigo-500 dark:bg-indigo-500;
+}
+
+.scrollbar-sm::-webkit-scrollbar-thumb:active {
+  @apply bg-indigo-800 dark:bg-indigo-800;
+}
+
+.scrollbar-sm::-webkit-scrollbar-track {
+  @apply rounded-md bg-indigo-100 dark:bg-indigo-900 mx-4;
+}
+
+@media screen and (min-width: 768px) {
+  .scrollbar-sm::-webkit-scrollbar {
+    @apply h-2;
+  }
+}

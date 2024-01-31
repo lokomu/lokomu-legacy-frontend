@@ -1,0 +1,80 @@
+<template>
+  <div
+    class="select-none flex items-center bg-zinc-50 dark:bg-gray-900 rounded-3xl shadow-md"
+  >
+    <div class="flex flex-col justify-center items-center mr-4">
+      <img
+        v-if="user.image"
+        class="h-10 w-10 rounded-full shadow-lg object-cover"
+        alt="User image"
+        :src="API_URL + 'image/' + user.image"
+        loading="lazy"
+      >
+      <PersonIcon
+        v-else
+        class="h-10 rounded-full shadow-lg fill-green-500"
+      />
+    </div>
+    <div class="flex-1 pl-1 flex">
+      <div class="font-medium text-black dark:text-white pr-2">
+        {{ user.firstName }} {{ user.lastName }}
+      </div>
+      <CommentIcon
+        v-if="requests"
+        class="cursor-pointer ml-10 fill-black h-8 dark:fill-white"
+        @click="$emit('showMessage', user.userID)"
+      />
+    </div>
+    <div class="flex flex-row gap-4">
+      <div
+        v-if="admin"
+        class="grid place-items-center font-medium dark:text-white"
+      >
+        <p>Admin</p>
+      </div>
+      <ColorButton
+        v-if="
+          buttons && userStore.currentUser.ID !== user.userID
+        "
+        :text="$t('button.community.chat')"
+        button-color="blue"
+        @click="openChatWithUser()"
+      />
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { useRouter } from "vue-router";
+import ColorButton from "@/components/BaseComponents/ColorButton.vue";
+import CommentIcon from "@/components/IconComponents/CommentIcon.vue";
+import PersonIcon from "@/components/IconComponents/PersonIcon.vue";
+import { useChatStore } from "@/stores/ChatStore";
+import { useUserStore } from "@/stores/UserStore";
+import { User } from "@/types/entities";
+
+const API_URL = import.meta.env.VITE_BASEURL;
+
+const chatStore = useChatStore();
+const router = useRouter();
+const userStore = useUserStore();
+
+defineEmits(["showMessage"]);
+
+const props = defineProps<{
+  user: User;
+  buttons: boolean;
+  requests: boolean;
+  admin: boolean;
+}>();
+
+async function openChatWithUser() {
+  await chatStore.setRecipient(props.user);
+  if (await chatStore.doesConversationExist(props.user.userID)){
+    await chatStore.getConversationID(props.user.userID);
+  }
+ chatStore.setByRequest(false);
+  chatStore.showChat = true;
+  await router.push("/messages");
+}
+</script>
