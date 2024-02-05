@@ -1,5 +1,5 @@
 import { mount } from "@vue/test-utils";
-import UserItemCard from "@/components/UserProfileComponents/UserItemCard.vue";
+import UserItemCard from "@/components/UserProfileComponents/UserCard";
 import {describe, it, expect} from "vitest";
 import ColorButton from "@/components/BaseComponents/ColorButton";
 import CommentIcon from "@/components/IconComponents/CommentIcon";
