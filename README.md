@@ -4,6 +4,8 @@ Not in development.
 
 The original name for the project was "del". It means "share" in Norwegian. Share your stuff and time with others.
 
+The current version of the frontend is being written in React Native.
+
 <img src="public/favicon.ico" height="100" title="hover text" alt="">
 
 ## Table of contents
