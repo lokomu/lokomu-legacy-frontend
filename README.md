@@ -66,3 +66,7 @@ This will run all the tests and provide a coverage report. Due to a bug with jes
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Author
+
+This project was created by [Titas Virbickas](https://github.com/titusvi).
