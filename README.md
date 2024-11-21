@@ -70,3 +70,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Author
 
 This project was created by [Titas Virbickas](https://github.com/titusvi).
+
+A heartfelt thank you to Zara Mudassar for her contributions to the development of the app during the bachelor thesis!
